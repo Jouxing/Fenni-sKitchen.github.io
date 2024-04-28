@@ -14,6 +14,50 @@
  }
 /*** Spinner End ***/
 
+.testimonial-item {
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.testimonial-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.testimonial-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-content p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.testimonial-item .fa-star {
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .testimonial-item h4 {
+        font-size: 1rem;
+    }
+
+    .testimonial-item p {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-content p {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-item .fa-star {
+        font-size: 0.9rem;
+    }
+}
+
 
 .back-to-top {
     position: fixed;
